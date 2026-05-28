@@ -1,0 +1,12 @@
+venv/
+env/
+.whisper_venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+whisper/venv/
+triton/
+*.log

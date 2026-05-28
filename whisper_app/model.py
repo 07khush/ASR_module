@@ -12,6 +12,7 @@ from torch import Tensor, nn
 from .decoding import decode as decode_function
 from .decoding import detect_language as detect_language_function
 from .transcribe import transcribe as transcribe_function
+from .app.transcribe import transcribe as transcribe_function
 
 try:
     from torch.nn.functional import scaled_dot_product_attention
